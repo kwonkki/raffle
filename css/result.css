@@ -1,0 +1,126 @@
+.empList{
+	height : auto;
+	/*background-color : #eee;	*/
+	color:#ffffff;
+	overflow : hidden;
+	scroll : auto;
+}
+.empName{
+}
+
+.fileList_wrapper{
+	position : relative;
+}
+.fileList{	
+	top : 0;
+	right : 0;
+	width: 10%;
+	float:left;
+}
+.pricelisting, .emplisting{
+	width:840px;
+	float:left;
+}
+.fileList img{
+	padding:4px;
+}
+#container{
+	color: #ffffff;
+	font-size: 43px;		
+	padding: 25px 0 25px;			
+	line-height:65px;
+	font-family:'Open Sans Condensed',sans-serif;
+	text-shadow:1px 1px 0 rgba(255,255,255,0.5);			
+}
+#container div{
+	border-top:1px dotted #ccc;
+	width:70%;
+	margin-left:80px;
+}
+#scroll {
+    height: 340px;
+    margin-top: 80px;
+	margin-left:20px;
+    overflow-y: scroll;
+    position: absolute;
+    top: 0;
+    width: 580px;
+}
+#frame{
+	background:url(../images/frame.jpg) no-repeat;
+	width:650px;
+	margin-left: 100px;
+	height:500px;
+	position:relative;
+	display:none;
+}
+
+#container:before{	
+	font-size: 50px;
+	left: -40px;
+	opacity: 0.25;
+	position: absolute;
+	text-shadow: 1px 1px 0 white;
+	top: 210px;
+}
+h1{
+	color:#ffffff !important;
+}
+.showmodal h1{
+	color:#ffffff !important;
+	font-size:16px;
+}
+.showmodal{
+	display:none;
+}
+.giftName{
+	width : 200px;
+	height : 150px;
+}
+.giftList{
+	overflow-y : scroll;
+	height : 230px;
+	color : #fff;
+}
+.raffleItem{
+	display : inline-block;
+	width : 205px;
+	margin-top : 10px;
+}
+
+* { margin:0; padding:0; }
+
+#newsticker-demo { 
+	width:45%; 
+	padding:5px 5px 0; 
+	font-family:Verdana,Arial,Sans-Serif;
+	font-size:25px;
+	margin:45px 0;
+	text-decoration:none; 
+	color:#ffffff;
+	float : right;
+}
+
+#newsticker-demo img { border: 2px solid #FFFFFF; }
+
+.title {
+text-align:center;
+font-size:30px;
+font-weight:bold;
+color:#ffffff;
+padding:5px;
+}
+
+.newsticker-jcarousellite { width:490px; height:350px !important; }
+.newsticker-jcarousellite ul li{ list-style:none; display:block; padding-bottom:1px; margin-bottom:5px; }
+
+.newsticker-jcarousellite .info { float:left; }
+.newsticker-jcarousellite .info span.cat { display: block; font-size:30px; color:#ffffff; }
+
+.clear { clear: both; }
+
+.slider-wrapper {
+    margin: 20px 30px;
+    width: 45%;
+	float:left;
+}
